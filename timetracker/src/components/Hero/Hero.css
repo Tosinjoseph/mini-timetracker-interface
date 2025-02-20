@@ -3,16 +3,19 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 100%;
+    width: 70%;
     justify-content: space-evenly;
+    margin: auto;
     
 
     gap: 10px;
 }
 .h-wrapper{
     background: hsl(226, 43%, 10%);
-    width: 100%;
-    padding: 4rem 4rem;
+    width: 80%;
+    padding: 10rem 4rem;
+    justify-content: center;
+    margin: auto;
 }
 .container .one{
     width: 200px;
@@ -52,6 +55,7 @@
 }
 .one{
     position: relative;
+    
 }
 .one>:nth-child(2){
     width: 200px;
@@ -72,6 +76,95 @@
     border-radius: 15px;
     height: 300px
 }
+.one-over{
+    position: relative;
+    color: red;
+    
+}
+.one-over h3,.one-over h1, .one-over p{
+    position: absolute;
+    padding-left: 20px;
+    top: 10px;
+}
+.one-over h3{
+    font-weight: lighter;
+    color: white;
+}
+.one-over h1{
+font-weight: lighter;
+top: 50px;
+font-size: 45px;
+color: white;
+word-spacing: 4px;
+}
+.one-over p{
+    color: grey;
+    top: 130px;
+    font-weight: 500;
+}
+.top img{
+    float: left;
+    margin-left:  15px;
+    margin-top: 18px;
+    width: 60px;
+    border: 4px solid white;
+    border-radius: 50px;
+}
+.top{
+    position: absolute;
+}
+.top p {
+position: absolute;
+top: 120px;
+margin-left: 15px;
+color: white;
+
+}
+.top span{
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    margin-left: 15px;
+    font-weight: lighter;
+    
+}
+.top :nth-child(4){
+    margin-top: 180px;
+    margin-left: 10px;
+}
+.top :nth-child(5){
+    margin-top: 150px;
+
+}
+.top .navi{
+    display: flex;
+    flex-direction: column;
+}
+.navi>:nth-child(1){
+    color: grey;
+    font-size: 20px;
+    margin-top: 170px;
+    cursor: pointer;
+}
+.navi>:nth-child(2){
+    color: grey;
+    margin-top: 195px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navi>:nth-child(3){
+    color: grey;
+    margin-top: 220px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navi>:nth-child(1):hover ,.navi>:nth-child(2):hover, .navi>:nth-child(3):hover{
+ color: white;
+}
+
 
 
 
